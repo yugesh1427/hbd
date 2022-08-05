@@ -190,20 +190,20 @@ etcdays = Math.round(etcdays * 7);
 weeks = parseInt(weeks);
 etcdays += parseInt(age / 4);           
 if (etcdays > 7) weeks += parseInt(etcdays / 7);      
-document.agecalc.timealive.value += "               or " + months + " months old\n";
-document.agecalc.timealive.value += "               or " + weeks + " weeks old\n";
-document.agecalc.timealive.value += "               or " + totdays + " days old\n";
+document.agecalc.timealive.value += "           or " + months + " months old\n";
+document.agecalc.timealive.value += "           or " + weeks + " weeks old\n";
+document.agecalc.timealive.value += "           or " + totdays + " days old\n";
 var time = new Date();
 ghour = time.getHours();
 gmin = time.getMinutes();
 gsec = time.getSeconds(); 
 hour = ((age * 365) + n + p) * 24;
 hour += (parseInt(age / 4) * 24);                                                        /////////////////////////correction for leap years: //////////////////
-document.agecalc.timealive.value += "               or " + hour + " hours old\n";
+document.agecalc.timealive.value += "           or " + hour + " hours old\n";
 var min = (hour * 60) + gmin;
-document.agecalc.timealive.value += "               or " + min + " minutes old\n";
+document.agecalc.timealive.value += "           or " + min + " minutes old\n";
 sec = (min * 60) + gsec;
-document.agecalc.timealive.value += "               or " + sec + " seconds old";
+document.agecalc.timealive.value += "           or " + sec + " seconds old";
 mm = mm - 1;                                                                                                /////////////////////mm was the birthday month//////////////////
 var r;
 if (mm == 0) r = 0;                                                                                         ////////////////////// r is days from new year to birthday//////////
@@ -245,7 +245,7 @@ while (bday > 366) bday -= 365;
 if (((bday == 366) && (leapyear(gyear)) || ((bday == 365) && (!leapyear(gyear))))) {
 document.agecalc.timealive.value += "\n\nAnd, today is your birthday!";
 } else {
-document.agecalc.timealive.value += "\n\n              And, next Special day is in:\n           "
+document.agecalc.timealive.value += "\n\n              And, next Special day is in:\n        "
 + bday + " days " + nhour + " hrs " + nmin + " mins " + nsec + " secs \n\n                       Im waiting for it.";
 setTimeout("run()", 1000);
    }
