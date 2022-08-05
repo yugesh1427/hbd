@@ -2,8 +2,8 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Hello🌝</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>Hello👸</title>
+
 
 </head>
 <body>
