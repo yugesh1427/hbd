@@ -11,7 +11,7 @@
 <div class="ys">
 <div class="box" id="y">
 	<h1>Hello</h1>
-	<h2>Mam 😈</h>
+	<h2>Mam 😈</h2>
 	<p> <input id="form1" placeholder="Bday Girls's Name👸"  autocomplete="off" required="" type="text"></p>
   <p> <input id="form2" placeholder="Moon's Name🌝"  autocomplete="off" required="" type="text"></p>
   <p><button class="buttonk" id="trigger" onclick="fun();">Enter</button></p>
@@ -128,7 +128,7 @@ input:focus::placeholder {
   var a = document.getElementById("form1").value;
   var b = document.getElementById("form2").value;
   if (a == "Srija" && b == "Stolen" || a == "SRIJA" && b == "STOLEN" || a == "srija" && b == "stolen" ||a == "Srija" && b == "stolen" ||a == "srija" && b == "Stolen" ||a == "SRIJA" && b == "Stolen" ||a == "Srija" && b == "STOLEN" ||a == "srija" && b == "STOLEN" ||a == "SRIJA" && b == "stolen"){
-    window.location.href = 'index1.html';
+    window.location.href = 'index1.php';
   }
    else {
     alert("Wrong Keyword☹️");
