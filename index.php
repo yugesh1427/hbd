@@ -17,6 +17,8 @@
   <p><button class="buttonk" id="trigger" onclick="fun();">Enter</button></p>
   </div></div>
   <style>
+	  body{
+		  background-color:black;}
     .box {
 width: 40%;
 margin-top:20px;
