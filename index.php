@@ -25,7 +25,7 @@ margin-top:20px;
 margin: 0 auto;
 background:rgb(179, 163, 163);
 padding: 35px;
-border: 2px solid rgb(14, 12, 12);
+border: 2px solid rgb(255, 20, 147);
 border-radius: 20px;
 background-clip: padding-box;
 text-align: center;
@@ -86,7 +86,7 @@ h2{
   color: aliceblue;
   background:rgb(179, 163, 163);
   padding: 35px;
-  border: 2px solid rgb(14, 12, 12);
+  border: 2px solid rgb(255, 20, 147);
   border-radius: 20px;
   background-clip: padding-box;
   text-align: center;
