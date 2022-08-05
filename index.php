@@ -65,10 +65,12 @@ h1{
   font-size: 7rem;
   font-family: "El Messiri", sans-serif;
   margin-bottom: -2px;
+	color:white;
 }
 h2{
   font-size: 4rem;
   font-family: "El Messiri", sans-serif;
+	color:white;
 }
 @media screen and (max-width: 1200px)
    {
