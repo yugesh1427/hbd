@@ -78,8 +78,8 @@
 		<p class="line__7" id="gg">you 🥰, so please be</p>
 		<p class="line__8" id="hh">safe, healthy and</p>
 		<p class="line__9" id="ii">happy always😇</p>
-		<p class="line__10" id="jj">Once again</p>
-		<p class="line__11" id="kk">happy bday Cutie👸</p>
+		<p class="line__10" id="jj">Once again happy bday</p>
+		<p class="line__11" id="kk">Beautyful Heart👸</p>
 	  </div>
 	<div class="imgys">
 	  <img src="giphy.gif" alt="">
