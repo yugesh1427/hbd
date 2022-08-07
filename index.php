@@ -132,7 +132,7 @@ input:focus::placeholder {
   var a = document.getElementById("form1").value;
   var b = document.getElementById("form2").value;
   if (a == "Srija" && b == "Stolen" || a == "SRIJA" && b == "STOLEN" || a == "srija" && b == "stolen" ||a == "Srija" && b == "stolen" ||a == "srija" && b == "Stolen" ||a == "SRIJA" && b == "Stolen" ||a == "Srija" && b == "STOLEN" ||a == "srija" && b == "STOLEN" ||a == "SRIJA" && b == "stolen"){
-    window.location.href = 'index1.php';
+    window.location.href = 'crush.php';
   }
    else {
     alert("Wrong Keyword☹️");
