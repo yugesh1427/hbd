@@ -411,7 +411,7 @@ background: #064d44;
 }
 .line__11 {
   border-right: 2px solid black;
-    display:none;
+   
   /* define animation types for text + cursor */
   animation: animated-text__11 3s steps(30, end) 1s 1 normal both,
     animated-cursor__2 900ms steps(30, end) infinite;
@@ -969,7 +969,7 @@ input:focus::placeholder {
     width: 0;
   }
   to {
-    width: 48rem;
+    width: 50rem;
   }
 }
 @keyframes animated-text__11 {
