@@ -867,8 +867,8 @@ input:focus::placeholder {
   /* define animation types for text + cursor */
   animation: animated-text__11 3s steps(30, end) 1s 1 normal both,
     animated-cursor__2 900ms steps(30, end) infinite;
-  -webkit-animation-delay: 44s;
-  animation-delay: 44s;
+  -webkit-animation-delay: 43s;
+  animation-delay: 43s;
   animation-play-state: paused;
 }
 
@@ -969,7 +969,7 @@ input:focus::placeholder {
     width: 0;
   }
   to {
-    width: 52rem;
+    width: 50rem;
   }
 }
 @keyframes animated-text__11 {
