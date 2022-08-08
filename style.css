@@ -699,7 +699,8 @@ input{
   font-size: 3rem;
   text-align: center;
   border-radius: 50px;
-  color: #a85181;
+  color: #1aba6f;
+  font-weight:bold;
   background-color: black;
   border-left-color:  #01f015;
   border-right-color: #01f015;
@@ -710,7 +711,7 @@ input:focus::placeholder {
       }
 .buttonk {
   width:20%;
-  font-size: 1.5em;
+  font-size: 2em;
   padding: 10px;
   color: rgb(23, 213, 213);
   border: 2px solid #33fc6c;
