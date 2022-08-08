@@ -259,7 +259,7 @@ return false;
 var mySwiper = new Swiper('.swiper-container',{
     pagination: '.pagination',
     loop:false,
-    autoplay: 50000,
+    autoplay: 80000,
     paginationClickable: true
   })
   $('.swiper-container').on('mouseenter', function(e){
