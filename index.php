@@ -99,7 +99,7 @@ h2{
 }
 input{
   padding: 40px;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   border-radius: 50px;
   color: #ff1493;
@@ -114,7 +114,7 @@ input:focus::placeholder {
       }
 .buttonk {
   width:20%;
-  font-size: 1em;
+  font-size: 2em;
   padding: 10px;
   color: rgb(23, 213, 213);
   border: 2px solid #33fc6c;
