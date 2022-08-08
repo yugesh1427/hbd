@@ -245,8 +245,8 @@ while (bday > 366) bday -= 365;
 if (((bday == 366) && (leapyear(gyear)) || ((bday == 365) && (!leapyear(gyear))))) {
 document.agecalc.timealive.value += "\n\nAnd, today is your birthday!";
 } else {
-document.agecalc.timealive.value += "\n\n              And, next Special day is in:\n        "
-+ bday + " days " + nhour + " hrs " + nmin + " mins " + nsec + " secs \n\n                       Im waiting for it.";
+document.agecalc.timealive.value += "\n\n              And, next Beautiful day is in:\n        "
++ bday + " days " + nhour + " hrs " + nmin + " mins " + nsec + " secs \n\n                 Hope our bonding will continue forever.";
 setTimeout("run()", 1000);
    }
 }
