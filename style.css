@@ -696,10 +696,10 @@ h4,h6 {
 }
 input{
   padding: 40px;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   border-radius: 50px;
-  color: #f70c0c;
+  color: #a85181;
   background-color: black;
   border-left-color:  #01f015;
   border-right-color: #01f015;
