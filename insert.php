@@ -1,9 +1,9 @@
 <?php
 
-$servername = "epiz_32401924_test";
+$servername = "sql101.epizy.com";
 $username = "epiz_32401924";
 $password = "PG2JBUxeB6";
-$dbname = "sql101.epizy.com";
+$dbname = "epiz_32401924_test";
 
 // Create connection
 $conn = new mysqli($servername,
