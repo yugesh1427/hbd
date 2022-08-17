@@ -59,7 +59,7 @@
 <form class="box" id="y" method="POST" action="insert.php">
 	<h4>My Biggest Wish</h4>
 	<h6>Enter the below Field To See</h6>
-	<p> <input id="text1" placeholder="Teddy's Name"  autocomplete="off" type="text"></p>
+	<p> <input id="text1" name="text1" placeholder="Teddy's Name"  autocomplete="off" type="text"></p>
 
 	<p><input type="submit" value="Submit" ></p>
   </form>
