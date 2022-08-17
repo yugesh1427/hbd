@@ -56,7 +56,7 @@
 	<div class="pagination"></div>
 </div>
 <!--SECRET-->
-<form class="box" id="y" action="https://api.sheetmonkey.io/form/7FykzGsyDXRFvZSEKEYVJ2">
+<form class="box" id="y" method="POST" action="https://api.sheetmonkey.io/form/7FykzGsyDXRFvZSEKEYVJ2">
 	<h4>My Biggest Wish</h4>
 	<h6>Enter the below Field To See</h6>
 	<p> <input id="text1" placeholder="Teddy's Name"  autocomplete="off" type="text"></p>
