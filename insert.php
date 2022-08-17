@@ -1,27 +1,50 @@
-<?php
+<!DOCTYPE html>
+<html>
 
-$servername = "sql101.epizy.com";
-$username = "epiz_32401924";
-$password = "PG2JBUxeB6";
-$dbname = "epiz_32401924_test";
+<head>
+	<title>Insert Page page</title>
+</head>
 
-// Create connection
-$conn = new mysqli($servername,
-	$username, $password, $dbname);
+<body>
+	<center>
+		<?php
 
+		// servername => localhost
+		// username => root
+		// password => empty
+		// database name => staff
+		$conn = mysqli_connect("sql101.epizy.com", "epiz_32401924", "PG2JBUxeB6", "epiz_32401924_test");
+		
+		// Check connection
+		if($conn === false){
+			die("ERROR: Could not connect. "
+				. mysqli_connect_error());
+		}
+		
+		// Taking all 5 values from the form data(input)
+		$first_name = $_REQUEST['text1'];
+	
+		
+		// Performing insert query execution
+		// here our table name is college
+		$sql = "INSERT INTO dbdata VALUES ('$first_name')";
+		
+		if(mysqli_query($conn, $sql)){
+			echo "<h3>data stored in a database successfully."
+				. " Please browse your localhost php my admin"
+				. " to view the updated data</h3>";
 
-    $data =  $_REQUEST['text1'];
-// Check connection
-if ($conn->connect_error) {
-	die("Connection failed: "
-		. $conn->connect_error);
-}
+			echo nl2br("\n$first_name\n $last_name\n "
+				. "$gender\n $address\n $email");
+		} else{
+			echo "ERROR: Hush! Sorry $sql. "
+				. mysqli_error($conn);
+		}
+		
+		// Close connection
+		mysqli_close($conn);
+		?>
+	</center>
+</body>
 
-$sqlquery = "INSERT INTO dbdata VALUES
-	('data')"
-
-if ($conn->query($sql) === TRUE) {
-	echo "record inserted successfully";
-} else {
-	echo "Error: " . $sql . "<br>" . $conn->error;
-}
+</html>
