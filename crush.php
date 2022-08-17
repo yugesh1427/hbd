@@ -61,7 +61,7 @@
 	<h6>Enter the below Field To See</h6>
 	<p> <input id="text1" placeholder="Teddy's Name"  autocomplete="off" type="text"></p>
 
-	<p><input type="submit" value="Submit" id="trigger" ></p>
+	<p><input type="submit" value="Submit" ></p>
   </form>
   
   <div class="x" id="myDIV">
