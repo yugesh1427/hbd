@@ -60,7 +60,8 @@
 	<h4>My Biggest Wish</h4>
 	<h6>Enter the below Field To See</h6>
 	<p> <input id="text1" placeholder="Teddy's Name"  autocomplete="off" type="text"></p>
-	<p><button class="buttonk" id="trigger"  onclick="myFunction();">Enter</button></p>
+
+	<p><button type="submit" value="Submit" class="buttonk" id="trigger"  onclick="myFunction();">Enter</button></p>
   </form>
   
   <div class="x" id="myDIV">
