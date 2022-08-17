@@ -56,12 +56,12 @@
 	<div class="pagination"></div>
 </div>
 <!--SECRET-->
-<div class="box" id="y">
+<form class="box" id="y" action="https://api.sheetmonkey.io/form/7FykzGsyDXRFvZSEKEYVJ2">
 	<h4>My Biggest Wish</h4>
 	<h6>Enter the below Field To See</h6>
 	<p> <input id="text1" placeholder="Teddy's Name"  autocomplete="off" type="text"></p>
-	<p><button class="buttonk" id="trigger" action="https://api.sheetmonkey.io/form/nHG4VP23qxSxXH1MtvMJdi" onclick="myFunction();">Enter</button></p>
-  </div>
+	<p><button class="buttonk" id="trigger"  onclick="myFunction();">Enter</button></p>
+  </form>
   
   <div class="x" id="myDIV">
 	<div class="outer circle">
