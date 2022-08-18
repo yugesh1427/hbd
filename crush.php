@@ -56,7 +56,7 @@
 	<div class="pagination"></div>
 </div>
 <!--SECRET-->
-<form action=" " method="post">
+<form action="" method="post">
 			
 <p><div class="box" id="y">
 	<h4>My Biggest Wish</h4>
