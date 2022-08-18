@@ -7,43 +7,7 @@
 
 <body>
 	<center>
-		<?php
-
-		// servername => localhost
-		// username => root
-		// password => empty
-		// database name => staff
-		$conn = mysqli_connect("sql101.epizy.com", "epiz_32401924", "PG2JBUxeB6", "epiz_32401924_test");
-		
-		// Check connection
-		if($conn === false){
-			die("ERROR: Could not connect. "
-				. mysqli_connect_error());
-		}
-		
-		// Taking all 5 values from the form data(input)
-		$first_name = $_REQUEST['text1'];
-	
-		
-		// Performing insert query execution
-		// here our table name is college
-		$sql = "INSERT INTO dbdata VALUES ('$first_name')";
-		
-		if(mysqli_query($conn, $sql)){
-			echo "<h3>data stored in a database successfully."
-				. " Please browse your localhost php my admin"
-				. " to view the updated data</h3>";
-
-			echo nl2br("\n$first_name\n $last_name\n "
-				. "$gender\n $address\n $email");
-		} else{
-			echo "ERROR: Hush! Sorry $sql. "
-				. mysqli_error($conn);
-		}
-		
-		// Close connection
-		mysqli_close($conn);
-		?>
+		regular-edmontosaurus-3ihy3m5dv36ff1ybjk5v6zt7.herokudns.com
 	</center>
 </body>
 
