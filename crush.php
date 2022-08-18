@@ -56,7 +56,7 @@
 	<div class="pagination"></div>
 </div>
 <!--SECRET-->
-<form action="" method="post">
+
 			
 <p><div class="box" id="y">
 	<h4>My Biggest Wish</h4>
@@ -64,8 +64,7 @@
 	<p> <input id="text1"  name="first_name" placeholder="Teddy's Name"  autocomplete="off" type="text"></p>
 	<p><button class="buttonk" id="trigger" onclick="myFunction();">Enter</button></p>
   </div>
-		</form>
-  
+		
   <div class="x" id="myDIV">
 	<div class="outer circle">
 		<img src="ume2.jpg">
