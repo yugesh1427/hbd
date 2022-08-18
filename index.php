@@ -12,7 +12,7 @@
 <div class="box" id="y">
 	<h1>Hello</h1>
 	<h2>Mam 😈</h2>
-	<p> <input id="form1" placeholder="Bday Girls's Name👸"  autocomplete="off" required="" type="text"></p>
+	<p> <input id="form1" placeholder="Baby Girls's Name👸"  autocomplete="off" required="" type="text"></p>
   <p> <input id="form2" placeholder="Moon's Name🌝"  autocomplete="off" required="" type="text"></p>
   <p><button class="buttonk" id="trigger" onclick="fun();">Enter</button></p>
   </div></div>
