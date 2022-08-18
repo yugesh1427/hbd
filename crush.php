@@ -95,7 +95,43 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
 
 </body>
+<?php
 
+		// servername => localhost
+		// username => root
+		// password => empty
+		// database name => staff
+		$conn = mysqli_connect("sql101.epizy.com", "epiz_32401924", "PG2JBUxeB6", "epiz_32401924_test");
+		
+		// Check connection
+		if($conn === false){
+			die("ERROR: Could not connect. "
+				. mysqli_connect_error());
+		}
+		
+		// Taking all 5 values from the form data(input)
+		$first_name = $_REQUEST['first_name'];
+	    date_default_timezone_set('Asia/Calcutta');
+        $date = date('d-m-y h:i:s');
+		
+		// Performing insert query execution
+		// here our table name is college
+		$sql = "INSERT INTO dbdata VALUES ('$first_name','$date')";
+		
+     if(mysqli_query($conn, $sql)){
+			
+         
+			
+		} else{
+			echo "ERROR: Hush! Sorry $sql. "
+				. mysqli_error($conn);
+		}
+		
+		
+		
+		// Close connection
+		mysqli_close($conn);
+		?>	
 
 
 </html>
