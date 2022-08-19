@@ -223,7 +223,7 @@ r = parseInt(r) + parseInt(dd);                                                 
 
 if ((mm >= (gmonth + 1)) && (dd > gdate)) 
 	{
-	bday = r - m - gdate-1; 
+	bday = r - m - gdate; 
 	}
 else 
 	{
