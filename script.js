@@ -223,7 +223,7 @@ r = parseInt(r) + parseInt(dd);                                                 
 
 if ((mm >= (gmonth + 1)) && (dd > gdate)) 
 	{
-	bday = r - m - gdate; 
+	bday = r - m - gdate-1; 
 	}
 else 
 	{
@@ -235,7 +235,7 @@ else
 	 	{
 		a = 365;
 		}
-	bday = a + (r - m - gdate)-1;                                            
+	bday = a + (r - m - gdate);                                            
 	/////////a is size days of year///////////////////// 
 	}
 nhour = 24 - parseInt(ghour);
