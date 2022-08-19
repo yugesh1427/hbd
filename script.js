@@ -243,7 +243,7 @@ nmin = 60 - parseInt(gmin);
 nsec = 60 - parseInt(gsec);
 while (bday > 366) bday -= 365;
 if (((bday == 366) && (leapyear(gyear)) || ((bday == 365) && (!leapyear(gyear))))) {
-document.agecalc.timealive.value += "\n\n             Happy happy birthday! \n\n        Hope our bonding will continue forever.";
+document.agecalc.timealive.value += "\n\n             Happy happy Birthday!🌕 \n\n        Hope our bonding will continue forever.";
 } else {
 document.agecalc.timealive.value += "\n\n           And, next Beautiful day is in:\n        "
 + bday-1 + " days " + nhour-1 + " hrs " + nmin + " mins " + nsec + " secs \n\n         Hope our bonding will continue forever.";
