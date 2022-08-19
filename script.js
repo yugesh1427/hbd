@@ -246,7 +246,7 @@ if (((bday == 366) && (leapyear(gyear)) || ((bday == 365) && (!leapyear(gyear)))
 document.agecalc.timealive.value += "\n\n             Happy happy birthday! \n\n        Hope our bonding will continue forever.";
 } else {
 document.agecalc.timealive.value += "\n\n           And, next Beautiful day is in:\n        "
-+ bday-1 + " days " + nhour + " hrs " + nmin + " mins " + nsec + " secs \n\n         Hope our bonding will continue forever.";
++ bday-1 + " days " + nhour-1 + " hrs " + nmin + " mins " + nsec + " secs \n\n         Hope our bonding will continue forever.";
 setTimeout("run()", 1000);
    }
 }
