@@ -235,7 +235,7 @@ else
 	 	{
 		a = 365;
 		}
-	bday = a + (r - m - gdate);                                            
+	bday = a + (r - m - gdate)-1;                                            
 	/////////a is size days of year///////////////////// 
 	}
 nhour = 24 - parseInt(ghour);
